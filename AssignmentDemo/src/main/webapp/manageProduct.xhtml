@@ -35,10 +35,10 @@
 					<h:panelGroup>
 						<p:commandButton value="Save" update="productForm"
 							action="#{productBean.save}" />
-						<p:commandButton value="Search" update="productForm"
-							immediate="true" action="#{productBean.retrieve}" />
 					</h:panelGroup>
-					<p:link value="Back" href="index.xhtml" />
+					<p:link value="Main Page" href="index.xhtml" />
+					<p:commandLink value="View Products" update="productForm"
+							immediate="true" action="#{productBean.retrieve}" />
 					
 				</h:panelGrid>
 			</p:fieldset>
