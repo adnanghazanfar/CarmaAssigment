@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow-y: auto;
+	height: 100%;
+	max-height: 100%;
+}
+
+.center_content {
+	position: absolute;
+	margin: auto 10%;
+	width: 80%;
+	max-height: 100%;
+	text-align: left;
+	margin-top: -20px;
+	float: left;
+	font-size: 100%;
+}
+
+.productCreateBar {
+	font-weight: bold;
+	margin: 10px auto;
+	width: 80%;
+}
+
+.productCreateBar tr>td:first-child {
+	font-weight: bold;
+	padding: 2px;
+	width: 120px;
+}
+
+.productCreateBar tr>td:nth-child(3) {
+	font-weight: bold;
+	padding: 2px;
+	width: 120px;
+}
+
+.productCreateBar tr>td:nth-child(3) .ui-outputlabel {
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 50px;
+	padding: 4px;
+	width: 120px;
+}
+
+.ui-datatable .ui-widget {
+	font-size: 12px !important;
+}
