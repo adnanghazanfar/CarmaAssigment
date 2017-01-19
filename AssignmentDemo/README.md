@@ -2,8 +2,10 @@
 1. Sample Crud
 2. JSF custom component.
 
+Application is deveoped using JSF, Primefaces, Spring data and in memory database
+
 ## Dependencies
-Need tomcat server, maven, java 7
+Need tomcat server, maven, java 7.
 Deploy on tomcat 7 or 8.
 
 ## Application URL : 
