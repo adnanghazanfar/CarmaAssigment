@@ -1,0 +1,37 @@
+.menu .accordion-heading {
+	position: relative;
+}
+.menu .accordion-group {
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	margin-bottom: 2px;
+}
+
+.menu .area {
+	border-left: 4px solid #f38787;
+}
+
+.menu .equipamento {
+	border-left: 4px solid #65c465;
+}
+
+.menu .ponto {
+	border-left: 4px solid #98b3fa;
+}
+
+.menu .collapse.in {
+	overflow: visible;
+}
+
+
+.accordion-heading .accordion-toggle {
+    display: block;
+    padding: 8px 15px;
+}
+.accordion-toggle {
+    cursor: pointer;
+}
+a {
+    color: #0088cc;
+    text-decoration: none;
+}

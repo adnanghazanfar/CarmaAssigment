@@ -5,13 +5,24 @@
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:p="http://primefaces.org/ui"
 	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ag="http://carmataglib.com/component"
 	template="./layout/BasicLayout.xhtml">
 
 	<ui:define name="content">
 
-		<p:link value="Product Management" href="manageProduct.xhtml" />
-		<br />
-		<p:link value="Custom Component" href="customeComponent.xhtml" />
+		<h:form id="customComponentForm">
+			<p:growl id="messages"></p:growl>
+			<h1>Custom Component</h1>
+			<br />
+			<ag:collapsible-tree-menu id="test"
+				value="#{collapsibleTreeBean.root}">
+			</ag:collapsible-tree-menu>
+			
+			<p:commandLink value="Selected Node">
+				<f:ajax event="click" render="customComponentForm:messages" listener="#{collapsibleTreeBean.selectedNode}" />
+			</p:commandLink>
+
+		</h:form>
 
 	</ui:define>
 
