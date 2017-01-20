@@ -15,6 +15,9 @@ http://localhost:8080/AssignmentDemo/index.xhtml
 Crud : 
 http://localhost:8080/AssignmentDemo/manageProduct.xhtml
 
+Custom Copmonent :
+http://localhost:8080/AssignmentDemo/customComponent.xhtml
+
 ## Project Info
 
 Author : Adnan Ghazanfar
