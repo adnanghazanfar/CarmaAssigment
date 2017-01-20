@@ -11,5 +11,11 @@
 			<component-type>com.assignment.project.faces.components.CollapsibleTreeMenuComponent</component-type>
 		</component>
 	</tag>
+	<tag>
+		<tag-name>mycustom</tag-name>
+		<component>
+			<component-type>com.assignment.project.faces.components.MyCustom</component-type>
+		</component>
+	</tag>
 
 </facelet-taglib>

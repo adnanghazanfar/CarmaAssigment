@@ -14,13 +14,14 @@
 			<p:growl id="messages"></p:growl>
 			<h1>Custom Component</h1>
 			<br />
-			<ag:collapsible-tree-menu id="test"
+
+			<ag:collapsible-tree-menu id="custComponent"
 				value="#{collapsibleTreeBean.root}">
+				<f:ajax event="click" render="customComponentForm:messages"
+					listener="#{collapsibleTreeBean.selectedNode}">
+				</f:ajax>
 			</ag:collapsible-tree-menu>
-			
-			<p:commandLink value="Selected Node">
-				<f:ajax event="click" render="customComponentForm:messages" listener="#{collapsibleTreeBean.selectedNode}" />
-			</p:commandLink>
+
 
 		</h:form>
 
